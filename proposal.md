@@ -18,7 +18,7 @@ The [original data](https://tripod.nih.gov/tox21/challenge/data.jsp) has been [c
 
 
 [^1]: https://tripod.nih.gov/tox21/challenge/index.jsp
-[^2]: Mayr, Andreas; Klambauer, Guenter; Unterthiner, Thomas; Hochreiter, Sepp (2016). ["DeepTox: Toxicity Prediction Using Deep Learning"](https://www.frontiersin.org/articles/10.3389/fenvs.2015.00080/full#h3). *Frontiers in Environmental Science*. **3**: 80. [Data](http://bioinf.jku.at/research/DeepTox/tox21.html)
+[^2]: Mayr, Andreas; Klambauer, Guenter; Unterthiner, Thomas; Hochreiter, Sepp (2016). ["DeepTox: Toxicity Prediction Using Deep Learning"](https://www.frontiersin.org/articles/10.3389/fenvs.2015.00080/full). *Frontiers in Environmental Science*. **3**: 80. [Data](http://bioinf.jku.at/research/DeepTox/tox21.html)
 [^3]: [Huang2016] Huang, R., Xia, M., Nguyen, D. T., Zhao, T., Sakamuru, S., Zhao, J., Shahane, S., Rossoshek, A., & Simeonov, A. (2016). Tox21Challenge to build predictive models of nuclear receptor and stress response pathways as mediated by exposure to environmental chemicals and drugs. *Frontiers in Environmental Science*, **3**:85.
 [^4]: https://tripod.nih.gov/tox21/challenge/leaderboard.jsp
 
