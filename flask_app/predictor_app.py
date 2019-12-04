@@ -6,10 +6,15 @@ from flask import send_from_directory
 from werkzeug.utils import secure_filename
 from predictor_api import make_prediction, feature_names
 
+# Helpful Flask upload files webpages:
+# https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/
+# https://pythonhosted.org/Flask-Uploads/
+
 # Initialize the app
 
 UPLOAD_FOLDER = './uploads'
-ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
+ALLOWED_EXTENSIONS = {'pkl'}
+# ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
 app = flask.Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
