@@ -1,0 +1,36 @@
+qHTS assay to identify small molecule that activate the aryl hydrocarbon receptor (AhR) signaling pathway
+U.S. Tox21 Program
+
+National Center for Advancing Translational Sciences [NCATS]
+NIH Chemical Genomics Center [NCGC]
+U.S. Environmental Protection Agency [EPA]
+National Institutes of Environmental Health Sciences [NIEHS]
+National Toxicology Program [NTP]
+U.S. Food and Drug Administration [FDA]
+
+Tox21 Assay overview:
+
+The Aryl hydrocarbon Receptor (AhR), a member of the family of basic helix-loop-helix transcription factors, is crucial to adaptive responses to environmental changes. AhR mediates cellular responses to environmental pollutants such as aromatic hydrocarbons through induction of phase I and II enzymes but also interacts with other nuclear receptor signaling pathways.  
+
+A cell based HepG2-AhR-luc assay (HG2L7.5c1 cell line, developed by Dr. Michael S. Denison, University of California at Davis, was used to assess the activation of AhR. HepG2 (human hepatocellular carcinoma) cells were stably transfected with an Ah receptor-responsive firefly luciferase reporter gene plasmid containing 20 dioxin responsive elements and luciferase reporter gene. Increased luciferase activity can be used to identify the compounds that induce AhR activation.
+Tox21 Assay Protocol Summary:
+
+4000 cells in 5 uL/well were dispensed into white wall/solid bottom 1536-well plates using a Multidrop Combi (Thermo Fisher Scientific Inc., Waltham, MA) dispenser. After the assay plates were incubated at 37C for 5 h, 23 nL of compound or DMSO vehicle was transferred to the assay plates by a pintool station (Kalypsys, San Diego, CA). The plates were incubated at 37C for 24 hr. After 1 ul/well of CellTiter-Fluor reagent (Promega, Madison, WI) was added into the assay plates using a Flying Reagent Dispenser (FRD) (Aurora Discovery, CA), the assay plates were incubated at 37C for 30 min. The fluorescence intensity in the plates was measured using a ViewLux plate reader (PerkinElmer, Shelton, CT), followed by the addition of 4 uL of ONE-Glo Luciferase Assay reagent (Promega) using an FRD (Aurora Discovery). After the assay plates were incubated at room temperature for 30 min, luminescence intensity was measured using a ViewLux plate reader (Perkin Elmer).
+qHTS assay to identify small molecule that activate the aryl hydrocarbon receptor (AhR) signaling pathway - cell viability counter screen
+U.S. Tox21 Program
+
+National Center for Advancing Translational Sciences [NCATS]
+NIH Chemical Genomics Center [NCGC]
+U.S. Environmental Protection Agency [EPA]
+National Institutes of Environmental Health Sciences [NIEHS]
+National Toxicology Program [NTP]
+U.S. Food and Drug Administration [FDA]
+
+Tox21 Assay overview:
+
+The Aryl hydrocarbon Receptor (AhR), a member of the family of basic helix-loop-helix transcription factors, is crucial to adaptive responses to environmental changes. AhR mediates cellular responses to environmental pollutants such as aromatic hydrocarbons through induction of phase I and II enzymes but also interacts with other nuclear receptor signaling pathways
+
+A cell based HepG2-AhR-luc assay (HG2L7.5c1 cell line, developed by Dr. Michael S. Denison, University of California at Davis) was used to assess the activation of AhR. HepG2 (human hepatocellular carcinoma) cells were stably transfected with an Ah receptor-responsive firefly luciferase reporter gene plasmid containing 20 dioxin responsive elements and luciferase reporter gene. Increased luciferase activity can be used to identify the compounds that induce AhR activation. The cytotoxicity of the compounds screened against the HepG2-AhR-luc cell line was tested in parallel by measuring the cell viability using CellTiter-Fluor assay in the same wells.
+Tox21 Assay Protocol Summary:
+
+4000 cells in 5 uL/well were dispensed into white wall/solid bottom 1536-well plates using a Multidrop Combi (Thermo Fisher Scientific Inc., Waltham, MA) dispenser. After the assay plates were incubated at 37C for 5 h, 23 nL of compound or DMSO vehicle was transferred to the assay plates by a pintool station (Kalypsys, San Diego, CA). The plates were incubated at 37C for 24 hr. For cell viability measurement, 1 ul/well of CellTiter-Fluor reagent (Promega, Madison, WI) was added into the assay plates using a Flying Reagent Dispenser (FRD) (Aurora Discovery, CA),and then the assay plates were incubated at 37C for 30 min. The fluorescence intensity in the plates was measured using a ViewLux plate reader (PerkinElmer, Shelton, CT), followed by the addition of 4 uL of ONE-Glo Luciferase Assay reagent (Promega) using an FRD (Aurora Discovery). After the assay plates were incubated at room temperature for 30 min, luminescence intensity was measured using a ViewLux plate reader (Perkin Elmer).
