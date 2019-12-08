@@ -1,0 +1,12 @@
+loss,params,iteration,estimators,train_time
+0.7862371888726208,"{'L2_reg': 0.001, 'act': 'tanh', 'batch_size': 1024, 'decay': 1e-06, 'drop_out': 0.14413070642365305, 'layers': 4, 'learn_rate': 1, 'neurons': 4096}",1,638.8380422109999
+0.43046357615894026,"{'L2_reg': 0.001, 'act': 'sigmoid', 'batch_size': 256, 'decay': 1e-05, 'drop_out': 0.1658546098561809, 'layers': 4, 'learn_rate': 0.01, 'neurons': 2048}",2,185.81286325399992
+0.4320987654320988,"{'L2_reg': 0.001, 'act': 'sigmoid', 'batch_size': 512, 'decay': 0.0001, 'drop_out': 0.17055758837725343, 'layers': 1, 'learn_rate': 0.01, 'neurons': 8192}",3,144.19604196699993
+0.4269662921348314,"{'L2_reg': 0.01, 'act': 'sigmoid', 'batch_size': 256, 'decay': 0.0001, 'drop_out': 0.14671350847750153, 'layers': 3, 'learn_rate': 0.01, 'neurons': 2048}",4,125.24342703000002
+0.4620689655172414,"{'L2_reg': 0.0001, 'act': 'tanh', 'batch_size': 512, 'decay': 1e-05, 'drop_out': 0.05204248000432543, 'layers': 3, 'learn_rate': 0.01, 'neurons': 1024}",5,41.16063992399995
+0.44134078212290506,"{'L2_reg': 0.001, 'act': 'tanh', 'batch_size': 512, 'decay': 0.0001, 'drop_out': 0.27894150835901305, 'layers': 3, 'learn_rate': 1, 'neurons': 1024}",6,138.785105574
+0.47089947089947093,"{'L2_reg': 0.0001, 'act': 'tanh', 'batch_size': 1024, 'decay': 0, 'drop_out': 0.4095785009688864, 'layers': 1, 'learn_rate': 0.1, 'neurons': 1024}",7,47.70903750100001
+0.7862371888726208,"{'L2_reg': 0.001, 'act': 'tanh', 'batch_size': 1024, 'decay': 0.0001, 'drop_out': 0.27327898530260974, 'layers': 2, 'learn_rate': 0.01, 'neurons': 4096}",8,244.59932393200006
+0.4636871508379887,"{'L2_reg': 0.0001, 'act': 'sigmoid', 'batch_size': 512, 'decay': 0, 'drop_out': 0.3430725866291738, 'layers': 1, 'learn_rate': 1, 'neurons': 8192}",9,98.80355276699993
+0.7862371888726208,"{'L2_reg': 0.0001, 'act': 'sigmoid', 'batch_size': 1024, 'decay': 1e-05, 'drop_out': 0.17953476187451017, 'layers': 4, 'learn_rate': 1, 'neurons': 4096}",10,1790.1991681629997
+0.5051546391752577,"{'L2_reg': 0.0001, 'act': 'sigmoid', 'batch_size': 256, 'decay': 1e-05, 'drop_out': 0.17995726823624053, 'layers': 1, 'learn_rate': 0.001, 'neurons': 512}",11,8.281615739999324
