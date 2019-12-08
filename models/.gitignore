@@ -1,3 +1,4 @@
 # Ignored files and folders
 .ipynb_checkpoints
 .ipynb_checkpoints/*
+*.old
