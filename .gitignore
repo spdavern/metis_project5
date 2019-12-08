@@ -1,3 +1,5 @@
 # Files and Folders to ignore:
 .ipynb_checkpoints/
 .ipynb_checkpoints/*
+src/__pycache/
+src/__pycache/*
