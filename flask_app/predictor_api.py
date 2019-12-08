@@ -9,13 +9,15 @@ about whether Flask is working. A short check is run at the bottom of the file.
 
 import pickle
 import numpy as np
+import os
 
 # lr_model is our simple logistic regression model
 # lr_model.feature_names are the four different iris measurements
 with open("./lr.pkl", "rb") as f:
     lr_model = pickle.load(f)
 
-feature_names = lr_model.feature_names
+feature_names = ['NR.AhR', 'NR.AR', 'NR.AR.LBD', 'NR.Aromatase', 'NR.ER', 'NR.ER.LBD',
+       'NR.PPAR.gamma', 'SR.ARE', 'SR.ATAD5', 'SR.HSE', 'SR.MMP', 'SR.p53']
 
 
 def make_prediction(feature_dict):
