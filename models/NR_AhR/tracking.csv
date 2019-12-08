@@ -1,4 +1,4 @@
-loss,params,iteration,estimators,train_time
+loss,params,iteration,train_time
 0.7862371888726208,"{'L2_reg': 0.001, 'act': 'tanh', 'batch_size': 1024, 'decay': 1e-06, 'drop_out': 0.14413070642365305, 'layers': 4, 'learn_rate': 1, 'neurons': 4096}",1,638.8380422109999
 0.43046357615894026,"{'L2_reg': 0.001, 'act': 'sigmoid', 'batch_size': 256, 'decay': 1e-05, 'drop_out': 0.1658546098561809, 'layers': 4, 'learn_rate': 0.01, 'neurons': 2048}",2,185.81286325399992
 0.4320987654320988,"{'L2_reg': 0.001, 'act': 'sigmoid', 'batch_size': 512, 'decay': 0.0001, 'drop_out': 0.17055758837725343, 'layers': 1, 'learn_rate': 0.01, 'neurons': 8192}",3,144.19604196699993
@@ -52,3 +52,6 @@ loss,params,iteration,estimators,train_time
 0.46341463414634143,"{'L2_reg': 0.0001, 'act': 'tanh', 'batch_size': 512, 'decay': 0, 'drop_out': 0.04150039046136414, 'layers': 1, 'learn_rate': 0.001, 'neurons': 512}",51,31.039462846005335
 0.4457831325301205,"{'L2_reg': 0.01, 'act': 'sigmoid', 'batch_size': 1024, 'decay': 1e-06, 'drop_out': 0.19304653723213397, 'layers': 2, 'learn_rate': 0.01, 'neurons': 1024}",52,46.284818727996026
 0.47058823529411764,"{'L2_reg': 0.001, 'act': 'sigmoid', 'batch_size': 256, 'decay': 1e-05, 'drop_out': 0.2516036000671429, 'layers': 3, 'learn_rate': 1, 'neurons': 2048}",53,156.26062414999615
+0.4736842105263158,"{'L2_reg': 0.0001, 'act': 'tanh', 'batch_size': 256, 'decay': 1e-05, 'drop_out': 0.49823889829402296, 'layers': 1, 'learn_rate': 0.01, 'neurons': 4096}",54,52.502287832
+0.6019417475728156,"{'L2_reg': 0.01, 'act': 'sigmoid', 'batch_size': 256, 'decay': 0.0001, 'drop_out': 0.09478416434947007, 'layers': 4, 'learn_rate': 0.1, 'neurons': 2048}",55,202.95743434000002
+0.435897435897436,"{'L2_reg': 0.0001, 'act': 'sigmoid', 'batch_size': 512, 'decay': 0, 'drop_out': 0.15848674759065257, 'layers': 2, 'learn_rate': 0.01, 'neurons': 512}",56,14.566181959000005
