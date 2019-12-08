@@ -205,12 +205,18 @@ def update_model_perfs(target, performance_metrics_df, metric_vals, model,is_ker
       target: case sensitive string for the toxicity target
       performance_metrics_df: Pandas dataframe of performance metrics for models of target.
       metric_vals: Pandas dataframe of performance metrics for 1 new model (currently)
-      model: Python reference to model object.
+      model: object or string: If the reference to the Python model object is passed the 
+             model will be saved with a unique filename based on the value of 'model' in 
+             metric_vals.  If model is a string, it is assumed to be the filename of the
+             previously saved model.
       is_keras_model: boolean, True if the model is a keras model (e.g. DNN)
     returns: Aggregated Pandas dataframe including the filename where the model was
       saved.
     """
-    filename=save_model(target,metric_vals['model'],model,is_keras_model)
+    if isinstance(model, str):
+        filename=model
+    else:
+        filename=save_model(target,metric_vals['model'],model,is_keras_model)
     performance_metrics_df=performance_metrics_df.append(metric_vals,ignore_index=True)
     performance_metrics_df.loc[len(performance_metrics_df)-1,'model_filename']=filename
     return performance_metrics_df
@@ -231,7 +237,11 @@ def check_and_save(target, metric_vals, model, is_keras_model=False):
         df=get_model_perfs(target)
         df=update_model_perfs(target,df,metric_vals,model,is_keras_model)
         save_model_perfs(target,df)
-        print('Model saved and metrics table updated.')
+        if isinstance(model, str):
+            print('Metrics table updated with provided model filename.')
+        else:
+            print('Model saved and metrics table updated.')
+        return df['model_filename'].iloc[-1]
     else:
         print('Model performance not better than that previously recorded.')
     return
