@@ -5,7 +5,8 @@ import os
 from joblib import dump, load
 from sklearn.metrics import roc_auc_score, confusion_matrix, f1_score,\
                             precision_score, recall_score, accuracy_score,\
-                            average_precision_score, precision_recall_curve
+                            average_precision_score, precision_recall_curve,\
+                            matthews_corrcoef
 from keras.models import load_model
 
 def load_data():
@@ -51,7 +52,7 @@ def init_model_perfs():
     returns: An empty pandas dataframe with columns for performance metrics kept for models.
     """
     cols=['model','threshold','accuracy','precision','recall','f1',\
-          'auc_roc','avg_precision','confusion_matrix','model_filename']
+          'auc_roc','mcc','avg_precision','confusion_matrix','model_filename']
     df=pd.DataFrame(columns=cols)
     return df
 
@@ -191,6 +192,7 @@ def evaluate_model_predictions(target, model_name, threshold, y_test, y_hat_test
                              'recall'          :recall_score(y_test,y_hat_test),
                              'f1'              :f1_score(y_test,y_hat_test),
                              'auc_roc'         :auc_roc,
+                             'mcc'             :matthews_corrcoef(y_test,y_hat_test),
                              'avg_precision'   :AP,
                              'confusion_matrix':confusion_matrix(y_test,y_hat_test)})
     return metric_vals
@@ -260,3 +262,14 @@ def adjusted_classes(y_scores, t):
       https://towardsdatascience.com/fine-tuning-a-classifier-in-scikit-learn-66e048c21e65
     """
     return [1 if y >= t else 0 for y in y_scores]
+
+def mcc(confusion_matrix):
+    """Calculates the Matthews Correlation Coefficient from a binary classifier confusion matrix.
+    -----
+    input:
+      confusion_matrix: array-like confusion matrix for a binary classifier: [[tp, fp],[fn, tn]]
+    returns: scalar - the Matthews Correlation Coefficient value.
+    """
+    tp, fp = confusion_matrix[0]
+    fn, tn = confusion_matrix[1]
+    return (tp*tn-fp*fn)/((tp+fp)*(tp+fn)*(tn+fp)*(tn+fn))**0.5
