@@ -110,8 +110,9 @@ def check_is_best(target, metric_vals):
     if len(model_df)==0:
         # No results for this model have been saved yet.
         return True
-    isBest = (metric_vals['f1'] > model_df['f1'].max()) or \
-             (metric_vals['auc_roc'] > model_df['auc_roc'].max())
+    isBest = metric_vals['mcc'] > model_df['mcc'].max()
+    # isBest = (metric_vals['f1'] > model_df['f1'].max()) or \
+    #          (metric_vals['auc_roc'] > model_df['auc_roc'].max())
     return isBest
 
 def read_model(target, filename):
